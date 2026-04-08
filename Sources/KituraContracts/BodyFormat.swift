@@ -36,7 +36,7 @@ import Foundation
  let format = BodyFormat.json
  ````
  */
-public struct BodyFormat: Equatable {
+public struct BodyFormat: Equatable, Sendable {
     
     /**
      A String value of the type that the body format will be represented in, which is used to ensure that both the left-hand side and the right-hand side are of the same type in the response body.
